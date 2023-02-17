@@ -44,7 +44,7 @@ public class LocalTest {
         String userDir = System.getProperty("user.dir");
 
         String jobPath =
-                "/Users/wtz/project_place/chunjun/chunjun-local-test/src/main/resources/task/test.sql";
+                "/Users/charles/Documents/project/java/chunjun/chunjun-local-test/src/main/resources/task/test.sql";
         String chunjunDistDir = userDir + "/chunjun-dist";
         String s = "";
 

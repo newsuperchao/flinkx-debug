@@ -59,7 +59,7 @@
 			<version>${project.version}</version>
 		</dependency>
 
-		<dependency>
+	<!--	<dependency>
 			<groupId>com.dtstack.chunjun</groupId>
 			<artifactId>chunjun-connector-iceberg</artifactId>
 			<version>${project.version}</version>
@@ -70,6 +70,13 @@
 			<artifactId>chunjun-connector-emqx</artifactId>
 			<version>${project.version}</version>
 		</dependency>
+		&lt;!&ndash; &ndash;&gt;
+		<dependency>
+			<groupId>com.dtstack.chunjun</groupId>
+			<artifactId>chunjun-connector-ftp</artifactId>
+			<version>${project.version}</version>
+		</dependency>-->
+
 		<dependency>
 			<groupId>com.dtstack.chunjun</groupId>
 			<artifactId>chunjun-connector-jdbc-base</artifactId>
@@ -82,12 +89,7 @@
 			<version>${project.version}</version>
 		</dependency>
 
-		<!-- -->
-		<dependency>
-			<groupId>com.dtstack.chunjun</groupId>
-			<artifactId>chunjun-connector-ftp</artifactId>
-			<version>${project.version}</version>
-		</dependency>
+
 
 		<!--Test Connector End. Do not Add directly -->
 	</dependencies>
